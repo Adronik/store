@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+
+    <parameter name ="browserName" value="firefox" />
+    <test name="Test">
+        <classes>
+
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="Utils.TestListener"/>
+    </listeners>
+</suite>
