@@ -19,6 +19,7 @@ public class Authentication extends BasePage {
     @FindBy(id = "SubmitLogin")
     private WebElement signInButton;
 
+
     public Authentication enterEmail() {
         WebDriverWait wait = new WebDriverWait(WebDriverManager.driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("email")));
@@ -36,6 +37,10 @@ public class Authentication extends BasePage {
     public MyAccount clickSignInButton() {
         signInButton.click();
         return new MyAccount();
+    }
+
+    public boolean userIsOnAuthenticationPage() {
+        return signInButton.isDisplayed();
     }
 
 }

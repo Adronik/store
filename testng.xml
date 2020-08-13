@@ -5,6 +5,7 @@
     <test name="Test">
         <classes>
             <class name="LoginTests" />
+            <class name="LogoutTests" />
         </classes>
     </test>
     <listeners>
