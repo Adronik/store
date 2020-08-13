@@ -12,10 +12,9 @@ public class SiteNavigation {
         return new Home();
     }
 
-    public static Authentication logoutURL() {
+    public static void logoutURL() {
         WebDriverManager.driver.get("http://automationpractice.com/index.php?mylogout=");
         WebDriverWait wait = new WebDriverWait(WebDriverManager.driver, 5);
-        return new Authentication();
     }
 
 }
