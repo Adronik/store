@@ -21,4 +21,8 @@ public class Home extends BasePage {
         return new Authentication();
     }
 
+    public boolean userIsOnHomePage() {
+        return signIn.isDisplayed();
+    }
+
 }
