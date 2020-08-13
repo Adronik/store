@@ -1,6 +1,9 @@
 # Log file
 *.log
 
+#Allure
+.allure/
+
 # BlueJ files
 *.ctxt
 
