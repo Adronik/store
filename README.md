@@ -1,5 +1,7 @@
 # store
 
+# Run instruction
+
 For local running tests please execute following actions:
  - If you use Windows system, please install gitbash for runnin unix commands
  - Clone project to your local folder with using of Git - git clone https://github.com/Adronik/store.git
