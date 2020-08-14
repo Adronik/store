@@ -6,6 +6,7 @@
         <classes>
             <class name="LoginTests" />
             <class name="LogoutTests" />
+            <class name="UsersAPI"/>
         </classes>
     </test>
     <listeners>

@@ -14,6 +14,16 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-maven</artifactId>
+            <version>2.10.0</version>
+        </dependency>
+        <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
             <version>2.13.5</version>
@@ -56,6 +66,12 @@
             <artifactId>commons-io</artifactId>
             <version>2.4</version>
         </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>4.3.1</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -96,10 +112,7 @@
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
-                <version>2.9</version>
-                <configuration>
-                    <reportVersion>2.6.0</reportVersion>
-                </configuration>
+                <version>2.10.0</version>
             </plugin>
         </plugins>
     </build>
